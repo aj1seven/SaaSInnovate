@@ -56,9 +56,9 @@ app.use((req, res, next) => {
     serveStatic(app);
   }
 
-  // Start the server safely using IPv4 localhost
-  const port = 5000;
-  const host = "127.0.0.1"; // ✅ safest binding for Node 23+ on macOS
+  // ✅ Use 0.0.0.0 and PORT from environment (important for Render)
+  const port = parseInt(process.env.PORT || "5000", 10);
+  const host = "0.0.0.0";
 
   server.listen(
     {
@@ -67,7 +67,7 @@ app.use((req, res, next) => {
       reusePort: true,
     },
     () => {
-      log(`serving on http://${host}:${port}`);
+      log(`✅ serving on http://${host}:${port}`);
     }
   );
 })();

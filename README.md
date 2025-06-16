@@ -2,19 +2,19 @@
 
 A modern SaaS application that uses OpenAI's GPT-4o to provide intelligent content analysis including sentiment analysis, keyword extraction, summarization, and topic modeling.
 
-## 🚀 What This Application Does
+## What This Application Does
 
 ContentAI Pro transforms any content you provide into actionable insights:
 
 ### Core Features
-- **📊 Sentiment Analysis** - Determines emotional tone (positive, negative, neutral) with confidence scores
-- **🔑 Keyword Extraction** - Identifies the most important terms and phrases in your content
-- **📝 Content Summarization** - Creates concise summaries while preserving key information
-- **🎯 Topic Identification** - Discovers main themes and subjects discussed
-- **📁 File Upload Support** - Analyze documents (TXT, PDF, DOC, CSV files up to 10MB)
-- **📊 Project Management** - Organize analyses into projects for better workflow
-- **📈 Analytics Dashboard** - Track usage statistics and success rates
-- **💾 Export Results** - Download analysis results in JSON or CSV format
+- ** Sentiment Analysis** - Determines emotional tone (positive, negative, neutral) with confidence scores
+- ** Keyword Extraction** - Identifies the most important terms and phrases in your content
+- ** Content Summarization** - Creates concise summaries while preserving key information
+- ** Topic Identification** - Discovers main themes and subjects discussed
+- ** File Upload Support** - Analyze documents (TXT, PDF, DOC, CSV files up to 10MB)
+- ** Project Management** - Organize analyses into projects for better workflow
+- ** Analytics Dashboard** - Track usage statistics and success rates
+- ** Export Results** - Download analysis results in JSON or CSV format
 
 ### Perfect For
 - Content creators analyzing audience engagement
@@ -23,7 +23,7 @@ ContentAI Pro transforms any content you provide into actionable insights:
 - Businesses monitoring brand sentiment
 - Students and academics analyzing literature
 
-## 🛠️ How to Run This Project Locally
+##  How to Run This Project Locally
 
 ### Prerequisites
 - Node.js 18 or higher
@@ -78,7 +78,7 @@ The application will be available at:
 5. **View results** in the dashboard below
 6. **Export data** using the download button
 
-## 📁 Project Structure
+## Project Structure
 
 ```
 contentai-pro/
@@ -95,14 +95,14 @@ contentai-pro/
 └── package.json         # Dependencies and scripts
 ```
 
-## 🔧 Available Scripts
+##  Available Scripts
 
 - `npm run dev` - Start development server
 - `npm run build` - Build for production
 - `npm run start` - Start production server
 - `npm run type-check` - Check TypeScript types
 
-## 🎨 Technology Stack
+## Technology Stack
 
 ### Frontend
 - **React 18** - Modern UI framework
@@ -117,7 +117,7 @@ contentai-pro/
 - **Multer** - File upload handling
 - **TypeScript** - Type-safe server code
 
-## 🔑 Getting Your OpenAI API Key
+## Getting Your OpenAI API Key
 
 1. Visit https://platform.openai.com
 2. Create an account or sign in
@@ -126,7 +126,7 @@ contentai-pro/
 5. Copy the key (starts with "sk-")
 6. Add it to your `.env` file
 
-## 💡 Usage Tips
+## Usage Tips
 
 - **Best Results**: Provide clear, well-written content for more accurate analysis
 - **File Uploads**: Ensure files are text-readable (PDFs with text, not scanned images)
@@ -134,7 +134,7 @@ contentai-pro/
 - **Project Organization**: Create projects to group related analyses
 - **Export Data**: Use the export feature to save results for external use
 
-## 🆘 Troubleshooting
+## Troubleshooting
 
 ### Common Issues
 
@@ -158,7 +158,7 @@ contentai-pro/
 - Verify all environment variables are set correctly
 - Ensure your OpenAI account has sufficient credits
 
-## 🌟 Features in Detail
+## Features in Detail
 
 ### Sentiment Analysis
 Analyzes emotional tone with:
